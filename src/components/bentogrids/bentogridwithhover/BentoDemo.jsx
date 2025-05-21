@@ -1,11 +1,11 @@
 import React from "react";
 import { BentoGrid, BentoGridItem } from "./BentoGrid";
-import ai from "./assets/ai.jpg";
-import bar_up from "./assets/bar_up.jpg";
-import bentoAnimation from "./assets/bentoAnimation.jpg";
-import pair_up from "./assets/pair_up.jpg";
+import ai from "../assets/ai.jpg";
+import bar_up from "../assets/bar_up.jpg";
+import bentoAnimation from "../assets/bentoAnimation.jpg";
+import pair_up from "../assets/pair_up.jpg";
 
-import { cn } from "../utils/cn";
+import { cn } from "../../utils/cn";
 
 import BorderHighlightEffect from "./BorderHighlightEffect";
 

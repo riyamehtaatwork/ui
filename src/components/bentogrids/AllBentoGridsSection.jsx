@@ -1,6 +1,6 @@
 import React from "react";
 import ContainerForComponents from "../ui/ContainerForComponents";
-import BentoGridDemo from "./BentoDemo";
+import BentoGridDemo from "./bentogridwithhover/BentoDemo";
 import Headlines from "../ui/Headlines";
 
 const AllBentoGridsSection = () => {
