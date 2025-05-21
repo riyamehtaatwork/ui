@@ -6,6 +6,7 @@ import FeaturesWithImagesAndLink from "./features-with-images-and-bg-gradient/Fe
 import FeaturesWithHoverEffect from "./features-with-hover-effect/FeaturesWithHoverEffect";
 import FlowingInFeatures from "./flowing-in-features/FlowingInFeatures";
 import ComparingFeatures from "./comparing-features/ComparingFeatures";
+import CollapsableCardsFeatures from "./collapsed-features/CollapsableCardsFeatures";
 const AllFeaturesSections = () => {
   return (
     <div>
@@ -13,17 +14,26 @@ const AllFeaturesSections = () => {
         <Headlines>Features With Simple Cards</Headlines>
         <FeaturesWithSimpleCards />
       </ContainerForComponents>
+
+      <ContainerForComponents>
+        <Headlines className="">Collapsable Features Cards</Headlines>
+        <CollapsableCardsFeatures />
+      </ContainerForComponents>
+
       <FeaturesWithImagesAndLink />
+
       <ContainerForComponents>
         <Headlines className="">Features With Hover Effect</Headlines>
         <FeaturesWithHoverEffect />
       </ContainerForComponents>
+
       <ContainerForComponents>
         <Headlines className="">
           Features With Flowing In Effect/Fade In Effect
         </Headlines>
         <FlowingInFeatures />
       </ContainerForComponents>
+
       <ContainerForComponents>
         <Headlines className="">Features Comparison</Headlines>
         <ComparingFeatures />
