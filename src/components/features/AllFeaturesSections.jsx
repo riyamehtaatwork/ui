@@ -4,6 +4,7 @@ import Headlines from "../ui/Headlines";
 import FeaturesWithSimpleCards from "./simple-features-section/FeaturesWithSimpleCards";
 import FeaturesWithImagesAndLink from "./features-with-images-and-bg-gradient/FeaturesWithImagesAndLink";
 import FeaturesWithHoverEffect from "./features-with-hover-effect/FeaturesWithHoverEffect";
+import FlowingInFeatures from "./flowing-in-features/FlowingInFeatures";
 
 const AllFeaturesSections = () => {
   return (
@@ -16,6 +17,12 @@ const AllFeaturesSections = () => {
       <ContainerForComponents>
         <Headlines className="">Features With Hover Effect</Headlines>
         <FeaturesWithHoverEffect />
+      </ContainerForComponents>
+      <ContainerForComponents>
+        <Headlines className="">
+          Features With Flowing In Effect/Fade In Effect
+        </Headlines>
+        <FlowingInFeatures />
       </ContainerForComponents>
     </div>
   );
