@@ -6,13 +6,15 @@ import BentoGridPage from "./pages/BentoGridPage";
 import VerticalTimelinePage from "./pages/VerticalTimelinePage";
 const App = () => {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<AllComponentsPage />} />
-        <Route path="/bento-grid" element={<BentoGridPage />} />
-        <Route path="/vertical-timeline" element={<VerticalTimelinePage />} />
-      </Routes>
-    </BrowserRouter>
+    <div className="bg-[#2d2d2d] min-h-screen text-white/80">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<AllComponentsPage />} />
+          <Route path="/bento-grid" element={<BentoGridPage />} />
+          <Route path="/vertical-timeline" element={<VerticalTimelinePage />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 };
 
