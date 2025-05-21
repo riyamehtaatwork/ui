@@ -6,6 +6,7 @@ export default function AllComponentsPage() {
       <div className="p-4">
         <h1 className="text-2xl font-bold">ALL Components Page</h1>
         <p>Welcome to the all components page.</p>
+        <p>Checking github change after removing remote</p>
       </div>
     </>
   );
