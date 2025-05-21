@@ -1,5 +1,5 @@
-import ContainerForComponents from "../ui/ContainerForComponents";
-import Headlines from "../ui/Headlines";
+import ContainerForComponents from "../../ui/ContainerForComponents";
+import Headlines from "../../ui/Headlines";
 import { FloatingNavbarWithCTA } from "./FloatingNavbarWithCTA";
 import { Home, Info } from "lucide-react";
 

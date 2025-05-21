@@ -1,4 +1,5 @@
-import FloatingNavbarWithCTADemo from "../components/floating-navbar-with-cta/FloatingNavbarWithCTADemo";
+import AllFeaturesSections from "../components/features/AllFeaturesSections";
+import FloatingNavbarWithCTADemo from "../components/navbars/floating-navbar-with-cta/FloatingNavbarWithCTADemo";
 import AllHeaders from "../components/headers/AllHeaders";
 import Navbar from "../components/ui/Navbar";
 export default function AllComponentsPage() {
@@ -8,6 +9,7 @@ export default function AllComponentsPage() {
       <div className="p-4">
         <FloatingNavbarWithCTADemo />
         <AllHeaders />
+        <AllFeaturesSections />
       </div>
     </>
   );

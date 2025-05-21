@@ -3,9 +3,9 @@ import { Phone } from "lucide-react";
 import React from "react";
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from "framer-motion";
-import { cn } from "../utils/cn";
-import logo from "../../assets/floating-navbar-with-cta/logo.png";
-import favicon from "../../assets/floating-navbar-with-cta/favicon2.png";
+import { cn } from "../../utils/cn";
+import logo from "./assets/logo.png";
+import favicon from "./assets/favicon2.png";
 import { Button } from "./Button";
 
 export const FloatingNavbarWithCTA = ({ navItems = [], className }) => {
