@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <div>
       {" "}
-      <nav className="bg-blue-600 text-white p-4 flex space-x-4">
+      <nav className="bg-gray-800 text-white p-4 flex space-x-4 justify-center font-semibold">
         <Link to="/" className="hover:underline">
           All
         </Link>

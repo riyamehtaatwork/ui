@@ -6,7 +6,7 @@ import BentoGridPage from "./pages/BentoGridPage";
 import VerticalTimelinePage from "./pages/VerticalTimelinePage";
 const App = () => {
   return (
-    <div className="bg-[#2d2d2d] min-h-screen text-white/80">
+    <div className="bg-gray-700 min-h-screen text-white/80">
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<AllComponentsPage />} />

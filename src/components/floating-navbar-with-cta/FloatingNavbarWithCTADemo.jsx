@@ -1,3 +1,5 @@
+import ContainerForComponents from "../ui/ContainerForComponents";
+import Headlines from "../ui/Headlines";
 import { FloatingNavbarWithCTA } from "./FloatingNavbarWithCTA";
 import { Home, Info } from "lucide-react";
 
@@ -8,12 +10,10 @@ const navItems = [
 
 export default function FloatingNavbarWithCTADemo() {
   return (
-    <div>
-      <h1 className="text-2xl font-bold text-center mb-5 ">
-        Floating Navbar With Call-To-Action Button
-      </h1>
+    <ContainerForComponents>
+      <Headlines> Floating Navbar With Call-To-Action Button</Headlines>
       <FloatingNavbarWithCTA navItems={navItems} />
       {/* rest of your content */}
-    </div>
+    </ContainerForComponents>
   );
 }
