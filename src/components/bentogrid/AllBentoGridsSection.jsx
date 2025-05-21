@@ -1,10 +1,15 @@
 import React from "react";
 import ContainerForComponents from "../ui/ContainerForComponents";
+import BentoGridDemo from "./BentoDemo";
+import Headlines from "../ui/Headlines";
 
 const AllBentoGridsSection = () => {
   return (
     <div>
-      <ContainerForComponents>hi</ContainerForComponents>
+      <ContainerForComponents>
+        <Headlines>Bento grid with hover effect</Headlines>
+        <BentoGridDemo />
+      </ContainerForComponents>
     </div>
   );
 };
