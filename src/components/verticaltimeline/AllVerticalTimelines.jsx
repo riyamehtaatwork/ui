@@ -5,7 +5,7 @@ import Headlines from "../ui/Headlines";
 const AllVerticalTimelines = () => {
   return (
     <div>
-      <ContainerForComponents className="pb-20">
+      <ContainerForComponents className="pb-10">
         <Headlines>Dynamic Vertical Timeline With Gradient </Headlines>
 
         <DynamicVeticalTimelineWithGradient />

@@ -80,7 +80,7 @@ export default function DynamicVeticalTimelineWithGradient() {
   }, [controls]);
 
   return (
-    <div className="relative">
+    <div className="relative ">
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -189,7 +189,7 @@ export default function DynamicVeticalTimelineWithGradient() {
                   />
                   <div className="ml-4 max-sm:ml-0">
                     {/* Title */}
-                    <h3 className="text-xl font-bold text-gray-800 dark:text-n-1 max-md:text-lg max-sm:text-md">
+                    <h3 className="text-xl font-bold text-gray-100 dark:text-n-1 max-md:text-lg max-sm:text-md">
                       {item.title}
                     </h3>
                     {/* Horizontal Line */}
