@@ -13,7 +13,10 @@ const AllHeaders = () => {
       </ContainerForComponents>
       <ContainerForComponents>
         <Headlines>Simple Header With Description</Headlines>
-        <HeaderWithDescription />
+        <HeaderWithDescription
+          title={"Hello world"}
+          text={"this is a simple header with a description"}
+        />
       </ContainerForComponents>
     </div>
   );

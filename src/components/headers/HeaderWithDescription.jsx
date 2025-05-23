@@ -1,8 +1,16 @@
 const HeaderWithDescription = ({ className, title, text }) => {
   return (
     <div className={`${className} max-w-[50rem] mx-auto mb-12  md:text-center`}>
-      {title && <h2 className="h2">{title}</h2>}
-      {text && <p className="body-2 mt-4 text-[#c3c3c3]">{text}</p>}
+      {title && (
+        <h2 className="text-[1.75rem] leading-[2.5rem] md:text-[2rem] md:leading-[2.5rem] lg:text-[2.5rem] lg:leading-[3.5rem] xl:text-[3rem] xl:leading-tight">
+          {title}
+        </h2>
+      )}
+      {text && (
+        <p className="font-light text-[0.875rem] leading-6 md:text-base mt-4 text-[#c3c3c3]">
+          {text}
+        </p>
+      )}
     </div>
   );
 };
