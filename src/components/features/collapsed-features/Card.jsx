@@ -13,7 +13,13 @@ const Card = ({ title, desc, image, isActive, onHover }) => {
     >
       {/* Title: On mobile, remove rotation and center at top; on larger screens, rotate 90° */}
       <div className="absolute top-4 left-1/2 transform -translate-x-1/2 md:top-24 max-md:top-24 md:left-10 md:-translate-x-1/2  max-sm:top-10">
-        <h3 className="text-white/80 font-bold text-md whitespace-nowrap md:rotate-90 max-md:rotate-90 max-sm:rotate-0">
+        <h3
+          className={`text-white/80 font-bold text-md whitespace-nowrap transition-transform duration-300 ease-in-out ${
+            isActive
+              ? "rotate-0 translate-x-40 max-lg:translate-x-20 max-md:translate-x-0"
+              : "md:rotate-90 max-md:rotate-90 max-sm:rotate-0"
+          }`}
+        >
           {title}
         </h3>
       </div>
