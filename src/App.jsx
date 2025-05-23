@@ -8,6 +8,7 @@ import NavbarPage from "./pages/NavbarPage";
 import CardsPage from "./pages/CardsPage";
 import AllInformationSectionsPage from "./pages/AllInformationSectionsPage";
 import AllHeadersPage from "./pages/AllHeadersPage";
+import BentoGridPlayground from "./pages/playgrounds/BentoGridPlayground";
 
 const App = () => {
   return (
@@ -24,6 +25,11 @@ const App = () => {
           <Route path="/navbars" element={<NavbarPage />} />
           <Route path="/cards" element={<CardsPage />} />
           <Route path="/headers" element={<AllHeadersPage />} />
+          {/* PLAYGROUNDS */}
+          <Route
+            path="/playground/bentogrid"
+            element={<BentoGridPlayground />}
+          />
         </Routes>
       </BrowserRouter>
     </div>
