@@ -6,7 +6,7 @@ import Headlines from "../ui/Headlines";
 const AllBentoGridsSection = () => {
   return (
     <div>
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines>Bento grid with hover effect</Headlines>
         <BentoGridDemo />
       </ContainerForComponents>

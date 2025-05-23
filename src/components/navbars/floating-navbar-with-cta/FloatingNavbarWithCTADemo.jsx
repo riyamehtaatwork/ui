@@ -10,7 +10,7 @@ const navItems = [
 
 export default function FloatingNavbarWithCTADemo() {
   return (
-    <ContainerForComponents>
+    <ContainerForComponents className="bg-black">
       <Headlines> Floating Navbar With Call-To-Action Button</Headlines>
       <FloatingNavbarWithCTA navItems={navItems} />
       {/* rest of your content */}

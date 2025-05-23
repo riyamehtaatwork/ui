@@ -27,7 +27,7 @@ const FeaturesWithImagesAndLink = () => {
     },
   ];
   return (
-    <ContainerForComponents>
+    <ContainerForComponents className="bg-black">
       <Headlines>Features With Images And Link With Bg Gradient</Headlines>
       <div className="w-full max-w-screen-xl mx-auto mt-10">
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3 max-sm:grid-cols-1 place-items-center">

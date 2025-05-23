@@ -10,31 +10,31 @@ import CollapsableCardsFeatures from "./collapsed-features/CollapsableCardsFeatu
 const AllFeaturesSections = () => {
   return (
     <div>
-      <ContainerForComponents>
-        <Headlines>Features With Simple Cards</Headlines>
+      <ContainerForComponents className="bg-black">
+        <Headlines className="">Features With Simple Cards</Headlines>
         <FeaturesWithSimpleCards />
       </ContainerForComponents>
 
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines className="">Collapsable Features Cards</Headlines>
         <CollapsableCardsFeatures />
       </ContainerForComponents>
 
       <FeaturesWithImagesAndLink />
 
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines className="">Features With Hover Effect</Headlines>
         <FeaturesWithHoverEffect />
       </ContainerForComponents>
 
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines className="">
           Features With Flowing In Effect/Fade In Effect
         </Headlines>
         <FlowingInFeatures />
       </ContainerForComponents>
 
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines className="">Features Comparison</Headlines>
         <ComparingFeatures />
       </ContainerForComponents>

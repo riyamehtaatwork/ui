@@ -7,11 +7,11 @@ import HeaderWithDescription from "./HeaderWithDescription";
 const AllHeaders = () => {
   return (
     <div>
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines>Header With Words Appearing One By One</Headlines>
         <HeaderWithWordsAppearingOneByOne />
       </ContainerForComponents>
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <Headlines>Simple Header With Description</Headlines>
         <HeaderWithDescription
           title={"Hello world"}

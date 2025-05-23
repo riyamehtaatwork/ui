@@ -5,7 +5,7 @@ import ContainerForComponents from "../ui/ContainerForComponents";
 const AllInformationSections = () => {
   return (
     <div>
-      <ContainerForComponents>
+      <ContainerForComponents className="bg-black">
         <AboutSection />
       </ContainerForComponents>
     </div>
