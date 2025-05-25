@@ -8,7 +8,7 @@ const AllPrincingSections = () => {
     <div>
       {" "}
       <ContainerForComponents className="bg-black">
-        <Headlines className="">Pricing Cards with Gradient Effect</Headlines>
+        <Headlines className="">Pricing Cards with Gradient Effects</Headlines>
         <PricingWithGradient />
       </ContainerForComponents>
     </div>
