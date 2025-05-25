@@ -7,6 +7,7 @@ import FeaturesWithHoverEffect from "./features-with-hover-effect/FeaturesWithHo
 import FlowingInFeatures from "./flowing-in-features/FlowingInFeatures";
 import ComparingFeatures from "./comparing-features/ComparingFeatures";
 import CollapsableCardsFeatures from "./collapsed-features/CollapsableCardsFeatures";
+import ZfeatureCards from "./z-features/ZfeatureCards";
 const AllFeaturesSections = () => {
   return (
     <div>
@@ -18,6 +19,11 @@ const AllFeaturesSections = () => {
       <ContainerForComponents className="bg-black">
         <Headlines className="">Collapsable Features Cards</Headlines>
         <CollapsableCardsFeatures />
+      </ContainerForComponents>
+
+      <ContainerForComponents className="bg-black">
+        <Headlines className="">Z Features Cards</Headlines>
+        <ZfeatureCards />
       </ContainerForComponents>
 
       <FeaturesWithImagesAndLink />
