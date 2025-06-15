@@ -95,7 +95,7 @@ export default function DynamicVeticalTimelineWithGradient() {
         }}
       ></div>
       <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat mt-80"
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat "
         style={{
           backgroundImage: `url(${gradient})`,
           opacity: 0.4,

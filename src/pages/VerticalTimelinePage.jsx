@@ -3,7 +3,7 @@ import AllVerticalTimelines from "../components/verticaltimeline/AllVerticalTime
 
 export default function VerticalTimelinePage() {
   return (
-    <div className="">
+    <div className="min-h-screen">
       <Navbar />
       <div className="p-4">
         <AllVerticalTimelines />
